@@ -18,6 +18,7 @@ function App() {
         {/* <Route path="/loggin" element={<Loggin />} /> */}
         <Route path="/" element={<LandingPage />} />  {/* Nueva ruta predeterminada */}
         <Route path="/loggin" element={<Loggin />} />
+        <Route path="/landing" element={<LandingPage />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/dashboardMobility" element={<DashboardMobility />} />
         <Route path="/dashboardHome" element={<DashboardHome />} />
